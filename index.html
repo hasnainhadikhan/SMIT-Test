@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.com Pakistan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    #parent {
+        background-color: rgb(18, 59, 153);
+        width: 100%;
+        height: 430px;
+        position: absolute;
+        top: 0%;
+        left: 0px;
+    }
+
+    .logo {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        position: absolute;
+        top: 3%;
+        left: 8%;
+    }
+
+    .ip {
+        color: white;
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .amr {
+        position: absolute;
+        top: 8%;
+        left: 55%;
+        width: 28px;
+
+        border-radius: 50%;
+    }
+i{
+    position: absolute;
+    top: 9%;
+    left: 60%;
+
+}
+    .to {
+        color: white;
+        position: absolute;
+        top: 3.7%;
+        left: 67%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .First {
+        position: absolute;
+        top: 7%;
+        left: 79%;
+        width: 85px;
+        height: 35px;
+        color: rgb(0, 89, 255);
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .First:hover {
+        border: 2px solid rgb(0, 89, 255);
+    }
+
+    .sec {
+
+        position: absolute;
+        top: 7%;
+        left: 86%;
+        width: 85px;
+        height: 35px;
+        color: rgb(0, 89, 255);
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .sec:hover {
+
+        border: 2px solid rgb(0, 89, 255);
+    }
+
+    .head {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 7.5%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+    }
+
+    .ol {
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 7.4%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 26px;
+    }
+
+    .are {
+        position: absolute;
+        top: 94%;
+        left: 8%;
+        width: 390px;
+        height: 52px;
+        border: 4px solid rgb(237, 196, 35);
+        background-color: aliceblue;
+        border-radius: 6px;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .non {
+        position: absolute;
+        top: 94%;
+        left: 36%;
+        width: 280px;
+        height: 52px;
+        border: 4px solid rgb(237, 196, 35);
+        background-color: aliceblue;
+        border-radius: 6px;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .none {
+        position: absolute;
+        top: 94%;
+        left: 56.2%;
+        width: 390px;
+        height: 52px;
+        border: 4px solid rgb(237, 196, 35);
+        background-color: aliceblue;
+        border-radius: 6px;
+        color: black;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .top {
+        position: absolute;
+        top: 94%;
+        left: 83.8%;
+        width: 140px;
+        height: 62px;
+        border: 4px solid rgb(237, 196, 35);
+        background-color: rgb(0, 102, 255);
+        border-radius: 6px;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .bot {
+        position: absolute;
+        top: 115.6%;
+        left: 10%;
+        word-spacing: 2px;
+    }
+
+    .lop {
+        position: absolute;
+        top: 119%;
+        left: 8.4%;
+    }
+
+    .gang {
+        position: absolute;
+        top: 68%;
+        left: 8.4%;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+    }
+
+    .lang {
+        position:
+            absolute;
+        top: 75%;
+        left: 8.4%;
+        color: gray;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .khan {
+        position:
+            absolute;
+        top: 84%;
+        left: 8.4%;
+        width: 85%;
+        height: 240px;
+        border-radius: 12px;
+    }
+
+    h5 {
+        position:
+            absolute;
+        top: 80%;
+        left: 13.4%;
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+    }
+
+    h6 {
+        position:
+            absolute;
+        top: 92%;
+        left: 13.4%;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .pop {
+        position: absolute;
+        top: 103%;
+        left: 13.4%;
+        width: 185px;
+        height: 38px;
+        color: rgb(245, 250, 255);
+        background-color: rgb(30, 100, 204);
+        font-size: 17px;
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 3px solid rgb(30, 100, 204);
+
+    }
+
+    .pop:hover {
+        background-color: rgb(0, 89, 255);
+    }
+
+    .tang {
+        position: absolute;  
+        top: 118%;
+        left: 8.4%;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .hotel {
+        position: absolute;
+        top: 130%;
+        left: 8.3%;
+        width: 270px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .one {
+        position: absolute;
+        top: 152%;
+        left: 9%;
+        color: black;
+    }
+
+    .apart {
+        position: absolute;
+        top: 130%;
+        left: 30.1%;
+        width: 270px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .two {
+        position: absolute;
+        top: 152%;
+        left: 30.3%;
+        color: black;
+
+    }
+
+    .res {
+        position: absolute;
+        top: 130%;
+        left: 52.2%;
+        width: 270px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .three {
+        position: absolute;
+        top: 152%;
+        left: 53%;
+        color: black;
+    }
+
+    .vil {
+        position: absolute;
+        top: 130%;
+        left: 74.2%;
+        width: 270px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .four {
+        position: absolute;
+        top: 152%;
+        left: 75%;
+        color: black;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="parent">
+            <h1 class="logo">Booking.Com</h1>
+            <h3 class="ip">PKR</h3>
+            <img class="amr" src="https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/Gb@3x.png"  alt="amr">
+            <i class="fa-solid fa-question"style="color:white;"></i>
+            <h4 class="to">List Your property</h4>
+            <button class="First">Register</button>
+            <button class="sec">Sign In</button>
+
+
+
+
+            <h1 class="head">Find your next stay</h1>
+            <p class="ol">Search low prices on hotels, homes and much more..</p>
+
+            <input class="are" type="text" placeholder="    . Where Are You Going?">
+            <input class="non" type="text" placeholder="  . Check-in date --Check-out date">
+            <input class="none" type="text" placeholder=" .  2 adult. 0 children .1 room">
+            <input class="top" type="submit" placeholder="Search">
+
+            <input class="lop" type="checkbox">
+            <p class="bot">I'am travelling for work</p>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div id="child">
+            <h2 class="gang">Offer</h2>
+            <P class="lang">Promotions, deals and special offers for you</P>
+            <img class="khan"
+                src="https://images.unsplash.com/photo-1447875372440-4037e6fae95d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpbGRzfGVufDB8fDB8fHww">
+            <h5>New year, new adventures
+            </h5>
+            <h6>Save 15% or more when you book and stay before 1 April 2024</h6>
+            <button class="pop">Find Early 2024</button>
+            <div id="father">
+                <h2 class="tang">Browse By property type</h2>
+                <img class="hotel"
+                    src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o="
+                    alt="Hotel">
+                <h6 class="one">Hotels</h6>
+                <img class="apart"
+                    src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o="
+                    alt="Apartment">
+                <h6 class="two">Apartment</h6>
+                <img class="res"
+                    src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o="
+                    alt="Villas">
+                <h6 class="three">Resort</h6>
+                <img class="vil"
+                    src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o="
+                    alt="Resort">
+                <h6 class="four">Villas</h6>
+            </div>
+
+
+
+
+
+        </div>
+    </main>
+</body>
+
+</html>
